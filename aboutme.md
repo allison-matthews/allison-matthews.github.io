@@ -1,15 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Radio Astronomer from Maine. Currently at the University of Virginia.
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+I am an Astronomy Ph.D. candidate at the University of Virginia studying the cosmic evolution of star formation and galaxy evolution. 
 
 ### my history
 
