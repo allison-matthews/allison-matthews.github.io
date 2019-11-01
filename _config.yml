@@ -21,7 +21,9 @@ description: Observational cosmology at radio wavelengths
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Research: "research"
+  Research: 
+    - Current Work: "research"
+    - Past: "old_research"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
