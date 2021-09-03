@@ -22,6 +22,7 @@ description: Carnegie Postdoctoral Fellow
 navbar-links:
 #  About Me: "aboutme"
   Publications: "https://ui.adsabs.harvard.edu/public-libraries/tntUYs33QR-B2rjyrzUSbw"
+  Outreach: "outreach"
   Research: 
     - Current Work: "research"
     - Past: "old_research"
