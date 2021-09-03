@@ -21,7 +21,7 @@ description: Carnegie Postdoctoral Fellow
 # List of links in the navigation bar
 navbar-links:
 #  About Me: "aboutme"
-  Publications: "publications"
+  Publications: "https://ui.adsabs.harvard.edu/public-libraries/tntUYs33QR-B2rjyrzUSbw"
   Research: 
     - Current Work: "research"
     - Past: "old_research"
