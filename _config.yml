@@ -4,7 +4,7 @@
 title: Allison Matthews
 
 # Short description of your site
-description: Observational cosmology at radio wavelengths
+description: Carnegie Postdoctoral Fellow
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,10 +20,12 @@ description: Observational cosmology at radio wavelengths
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+#  About Me: "aboutme"
+  Publications: "publications"
   Research: 
     - Current Work: "research"
     - Past: "old_research"
+#    - Paper: "papers"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -70,7 +72,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: amm4ws@virginia.edu
+  email: amatthews@carnegiescience.edu
   github: allison-matthews
 #  reddit: yourname
 #  linkedin: daattali

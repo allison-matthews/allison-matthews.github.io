@@ -1,9 +1,26 @@
 ---
 layout: page
-title: Allison Matthews
-subtitle: University of Virginia
+title: Hello!
+subtitle: 
 use-site-title: true
 ---
+
+<div class="posts-list">
+	<article class="post-preview">
+	<h2 class="post-title">About Me</h2>
+
+    <p class="post-meta">
+      Updated on September 2, 2021
+    </p>
+
+<div class="post-entry-container">
+    <div class="post-image">
+	<img src="{{ 'img/avatar-icon.png' | relative_url }}" />
+    </div>
+    <div class="post-entry">
+        {{ I am a Carnegie Fellow at the Carnegie Observatories in Pasadena, CA. My interests include radio observations of star-forming galaxies, statistical analyses of faint populations, modeling the cosmological evolution of galaxies, and more. Prior to arriving in Pasadena, I obtained my PhD from the University of Virginia and my undergraduate degrees from Lafayette College. }}
+    </div>
+</div>
 
 <div class="posts-list">
   {% for post in paginator.posts %}
