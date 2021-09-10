@@ -27,6 +27,7 @@ navbar-links:
     - Current Work: "research"
     - Past: "old_research"
 #    - Paper: "papers"
+  CV: "cv"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
