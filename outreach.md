@@ -12,7 +12,10 @@ subtitle: Sharing science (both mine and in general) with the community is a pas
 
 ### The Dark Skies, Bright Kids Assessment Team
 
-We strive to self-reflect on our efforts and assess whether our outreach program is meeting our goals. Through the "Draw a Scientist Test" we ask the students to draw their idea of a scientists both joining the club and meeting ourselves and on the last day of the program. We found that students perceive a gender imbalance (~30% drew female scientists) that only slightly improves through participation, but that there is a significant decrease in students who draw a scientist doing a stereotypical activity after the club (e.g. working with beakers). 
+We strive to self-reflect on our efforts and assess whether our outreach program is meeting our goals. Through the "Draw a Scientist Test" we ask the students to draw their idea of a scientists both joining the club and meeting ourselves and on the last day of the program. We found that students perceive a gender imbalance (~30% drew female scientists) that only slightly improves through participation, but that there is a significant decrease in students who draw a scientist doing a stereotypical activity after the club (e.g. working with beakers). These results were [published](https://journals.aps.org/prper/abstract/10.1103/PhysRevPhysEducRes.16.010131) in the Physical Review Physics Education Research journal.
 
 ## Letters to a Pre-Scientist
+
+Through a pen-pal relationship, students connect with STEM professionals to explore what they do at work, to broaden student ideas of what scientists really look like, and to inspire them to explore their own future in STEM. Read more about it, [here](https://prescientist.org/about-us/)!
+
 ## Astronomy on Tap - Charlottesville
