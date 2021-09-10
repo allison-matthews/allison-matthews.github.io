@@ -19,3 +19,5 @@ We strive to self-reflect on our efforts and assess whether our outreach program
 Through a pen-pal relationship, students connect with STEM professionals to explore what they do at work, to broaden student ideas of what scientists really look like, and to inspire them to explore their own future in STEM. Read more about it, [here](https://prescientist.org/about-us/)!
 
 ## Astronomy on Tap - Charlottesville
+
+Exciting and informal astronomy presentations and pub trivia are brought into the bar to reach a wider audience. While founded in New York City, the Charlottesville community has a plethora of both astronomers and breweries that lead to fun nights talking science with the public. For up-to-date information on when the next AoT event is happening in Charlottesville, keep an eye on their [Facebook page](https://www.facebook.com/pg/aotcville/posts/?ref=page_internal). To read more about the nation-wide organization, go [here](https://astronomyontap.org/)!
