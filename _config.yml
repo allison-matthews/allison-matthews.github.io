@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Allison Matthews
+title: Allison Matthews | PhD
 
 # Short description of your site
 description: Carnegie Postdoctoral Fellow
@@ -24,9 +24,9 @@ navbar-links:
   Publications: "https://ui.adsabs.harvard.edu/public-libraries/tntUYs33QR-B2rjyrzUSbw"
   CV: "cv"
   Outreach: "outreach"
-  Research: 
-    - Current Work: "research"
-    - Past: "old_research"
+#  Research: 
+#    - Current Work: "research"
+#    - Past: "old_research"
 #    - Paper: "papers"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
