@@ -1,1 +1,1 @@
-<iframe src="https://docs.google.com/gview?url=https://github.com/allison-matthews/allison-matthews.github.io/raw/master/pdfs/dummy.pdf&embedded=true" style="width:800px; height:1000px;" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/gview?url=https://github.com/allison-matthews/allison-matthews.github.io/raw/master/pdfs/matthews_cv.pdf&embedded=true" style="width:100%" frameborder="0"></iframe>
