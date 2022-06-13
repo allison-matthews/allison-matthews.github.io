@@ -56,14 +56,15 @@ Notice the `-O` in the `curl` command, this is necessary to save the contents to
 
 ### `tar` and `zip`
 Compressed and/or archived files and directories can have different file endings corresponding to the algorithm used for the compression: `.zip`, `.gz`, `.tar	`, `.tgz`, `.tar.gz`, etc. `tar` was originally designed for creating archives to store files on magnetic tape which is why it has its name “**t**ape **ar**chive”. If there is a **z** in the file extension, it means the file/directory was compressed - files ending simply in `.tar` are uncompressed. There are many options you can use with `tar` when uncompressing a file/directory. A common usage is: `tar -xzvf filename.tar.gz`.
-```mermaid!
+{% mermaid %}
 flowchart TD
 A[tar -xzvf];
 A ---> B[x:extract archive]
 A ---> C[z: uncompress archive]
 A ---> D[v: verbose]
 A ---> E[f: filename, location of archive]
-```
+{% endmermaid %}
+
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
 
 The **ZIP** format supports lossless file compression, and files with the extension `.zip` may contain one or more directories. To extract the contents of a `.zip` archive, use the `unzip` command: `unzip filename.zip`. If  you don't want to see the printed messages: `unzip -q filename.zip` (`-q` means quiet). Likewise, you can use `zip` in the same way to compress a file: `zip filename.zip file` or a directory: `zip -r directoryname.zip directory/`.
