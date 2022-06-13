@@ -158,6 +158,7 @@ Your mouse won't be able to move your cursor on the command line, but control ch
 2. Sometimes you haven't had your tea or coffee yet and you start running a program before realizing you forgot to change a parameter or filename within the code. The good news is you don't have to wait until the program finishes to go back and make your changes. Instead, typing `cntrl-c` into the terminal will cancel whatever command is running.
 
 Below is an incomplete list of some control characters that make life just a little more efficient:
+
 | **CONTROL CHAR** | **ACTION** |
 | -- | -- |
 | `cntrl-a` | move cursor to start of line |
