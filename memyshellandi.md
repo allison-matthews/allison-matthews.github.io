@@ -60,10 +60,10 @@ Compressed and/or archived files and directories can have different file endings
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
 </script>
 <div class="mermaid">graph TD;
-	A--> X;
-	A--> Z;
-	A--> V;
-	A--> F[filename];
+	A--> B[x: extract archive];
+	A--> C[z: uncompress archive];
+	A--> D[v: verbose];
+	A--> E[f: filename/location of archive];
 </div>
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
