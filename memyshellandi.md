@@ -63,7 +63,7 @@ The **ZIP** format supports lossless file compression, and files with the extens
 ![tar comic](https://imgs.xkcd.com/comics/tar_2x.png)
 ### Exploring detailed information of files/directories
 If you type `ls` into the command line now, you should see a list of files and subdirectories. In order to list more information on the contents, enter `ls -l`. You should see something similar to the image below.
-![ls -l example](imgs/llexample.png)
+![ls -l example](llexample.png)
 Lines that begin with **d** indicate directories. The first column lists the file/directory permissions: **r**: read permission, **w**: write permission, **x**: execute permission. 
 ```mermaid
 flowchart TD
