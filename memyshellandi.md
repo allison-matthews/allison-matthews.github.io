@@ -60,10 +60,10 @@ Compressed and/or archived files and directories can have different file endings
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
 </script>
 <div class="mermaid">graph TD;
-	A--> B[x: extract archive];
-	A--> C[z: uncompress archive];
-	A--> D[v: verbose];
-	A--> E[f: filename/location of archive];
+	A[tar -xzvf]--> B[x: extract archive];
+	A[tar -xzvf]--> C[z: uncompress archive];
+	A[tar -xzvf]--> D[v: verbose];
+	A[tar -xzvf]--> E[f: filename/location of archive];
 </div>
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
@@ -79,25 +79,31 @@ The **ZIP** format supports lossless file compression, and files with the extens
 If you type `ls` into the command line now, you should see a list of files and subdirectories. In order to list more information on the contents, enter `ls -l`. You should see something similar to the image below.
 ![ls -l example](/img/llexample.png)
 Lines that begin with **d** indicate directories. The first column lists the file/directory permissions: **r**: read permission, **w**: write permission, **x**: execute permission. 
-```mermaid
-flowchart TD
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
+</script>
+<div class="mermaid">graph TD;
 	A[Permissions] & B[User] & C[Group] & D[Size] & E[Creation time] & F[filename];
-	A --> G[drwxr-xr-x];
-	B --> H[amatthews];
-	C --> J[obsusers];
-	D --> K[4096 bytes];
-	E --> L[Jun 8 2020];
-	F --> M[data];
-```
+	A-->G[drwxr-xr-x];
+	B-->H[amatthews];
+	C-->J[obsusers];
+	D-->K[4096 bytes];
+	E-->L[Jun 8 2020];
+	F-->M[data];
+</div>
+
 Let's explore the Permissions a little more:
-```mermaid
-flowchart TD
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
+</script>
+<div class="mermaid">graph TD;
 	A[drwxr-xr-x];
 	A --> B([d: directory]);
 	A --> C([rwx: USER can read, <br/> write, and execute]);
 	A --> D([r-x: GROUP can read, <br/> execute, but not write]);
 	A --> E([r-x: OTHERS can read, <br/> execute, but not write])
-```
+</div>
+
 Sometimes you may want to change the permission of a file or directory. In order to do so, you use the `chmod` command. For example, to give write permissions for the file `README.md` to _**g**roup_ members and all _**o**thers_ on the computer:
 ``` bash
 $ chmod go+w README.md
