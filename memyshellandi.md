@@ -5,21 +5,6 @@ subtitle: Tips and tricks for working in a UNIX environment
 gh-repo: allison-matthews/allison-matthews.github.io
 comments: true
 ---
-{%- if content contains 'mermaid' -%}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
-<script>
-const config = {
-    startOnLoad:true,
-    theme: 'forest',
-    flowchart: {
-        useMaxWidth:false,
-        htmlLabels:true
-        }
-};
-mermaid.initialize(config);
-window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-</script>
-{% endif %}
 
 If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at amatthews@carnegiescience.edu or find me in my office (#132). Mike and Peter are available at mgrudic@carnegiescience.edu and psenchyna@carnegiescience.edu and are in offices #1 and #1, respectively.
 
