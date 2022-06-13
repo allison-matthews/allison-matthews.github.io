@@ -260,7 +260,9 @@ Here are some simple search examples:
 | `$ grep cheese carne.txt` | select all lines in carne.txt containing 'cheese' |
 | `$ grep '^p' carne.txt` | ^ = start of line, select all lines starting with 'p' |
 | `$ grep 's$' carne.txt` | $ = end of line, select all times ending with 's' | 
+
 _Square brackets_ match a single character. For example, `[bc]at` will match 'bat' and 'cat, but not 'hat'. You can place a range of letters or numbers inside the brackets:
+
 | input | translation |
 | -- | -- |
 | `[b-k]at` | matches 'bat', 'cat', 'gat', but not 'mat' or 'pat' |
@@ -269,6 +271,7 @@ _Square brackets_ match a single character. For example, `[bc]at` will match 'ba
 | `[a-zA-Z]` | matches any single upper or lowercase letter |
 | `[a-zA-Z]&` | matches any character that appears at the end of a line |
 | `[^abc]` | matches any character _except_ 'a', 'b', or 'c' | 
+
 The website https://regex101.com/ allows you to test regular expressions to ensure they match the pattern you want. They also have a fun quiz to practice your regex skills!
 > ### Practice:
 > **Without** opening any files:
