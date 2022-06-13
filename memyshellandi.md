@@ -98,7 +98,7 @@ Sometimes you may want to change the permission of a file or directory. In order
 ``` bash
 $ chmod go+w README.md
 ```
-![changed permissions]("/img/llchmod.png")
+![changed permissions](./img/llchmod.png)
 	
 Now the **u**ser, the **g**roup, and all **o**thers can write to the file `README.md`. To remove permissions, use `-` in the place of `+`. As shown above, **g** and **o** correspond to _group_ and _others_ permissions, and it follows that **u** is used when changing _user_ permissions. Without specifying **u**, **g**, or **u**, the default is to change only the user (**u**) permissions.
 
