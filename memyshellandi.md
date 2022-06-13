@@ -46,11 +46,11 @@ There are two command line tools commonly used to download files from a server: 
 
 In the `cassi` directory, we are going to download a sample directory set to play around with. To download with `wget`:
 ```bash
-wget https:// 
+wget https://github.com/allison-matthews/unixtutorial/archive/main.zip
 ```
 and to download with `curl`:
 ``` bash
-$ curl -O https:// filename
+$ curl -O https://github.com/allison-matthews/unixtutorial/archive/main.zip filename
 ```
 Notice the `-O` in the `curl` command, this is necessary to save the contents to a file/directory, otherwise everything would be printed on the command line. `wget` will automatically saves the contents to a file/directory.
 
