@@ -12,6 +12,7 @@ UNIX is an operating system first developed in the 1960s, but remains under cons
 <center><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--rpWCPbkI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/14ajqxtcah1yx2e9kgzk.jpg" alt="unix" width="300">
 
 ### Why learn UNIX?
+	
 It's powerful, but don't take my word for it. The research publication _Nature_ listed ["Five reasons why researchers should learn to love the command line](https://www.nature.com/articles/d41586-021-00263-0)," summarized here:
 1. **Wrangle files.** You can repeat simple tasks (like renaming, adding a date stamps, converting to a different format) across multiple files.
 2. **Handle big data.** At a certain point, data sets become too big for GUI programs to handle. Using the command-line you can quickly sort through large numbers of files (>millions) and/or extract information from large files.
@@ -97,7 +98,7 @@ Sometimes you may want to change the permission of a file or directory. In order
 ``` bash
 $ chmod go+w README.md
 ```
-![changed permissions](/img/llchmod.png)
+![changed permissions]("/img/llchmod.png")
 	
 Now the **u**ser, the **g**roup, and all **o**thers can write to the file `README.md`. To remove permissions, use `-` in the place of `+`. As shown above, **g** and **o** correspond to _group_ and _others_ permissions, and it follows that **u** is used when changing _user_ permissions. Without specifying **u**, **g**, or **u**, the default is to change only the user (**u**) permissions.
 
