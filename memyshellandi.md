@@ -127,11 +127,11 @@ $ mv flatbread/makepizza.py makepizza.py
 ```
 OR
 ```bash
-mv flatbread/makepizza.py .
+$ mv flatbread/makepizza.py .
 ```
 The period `.` indicates the current directory, so that command is telling the computer to move the file `makepizza.py` from the `flatbread/` directory into the current directory, keeping its name `makepizza.py`. There are times when you may want to move a file to a different directory and change its name in the new directory. This can be done with one command in the terminal. For example, to move the python program `makepizza.py` into the `flatbread/` sub-directory and change its name to `make_me_a_pizza.py`:
 ```bash
-> mv makepizza.py flatbread/make_me_a_pizza.py
+$ mv makepizza.py flatbread/make_me_a_pizza.py
 ```
 
 {: .box-warning}
