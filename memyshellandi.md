@@ -61,10 +61,10 @@ Compressed and/or archived files and directories can have different file endings
 </script>
 <div class="mermaid">graph TD;
 	A[tar -xzvf];
-	A ---> B[x:extract archive]
-	A ---> C[z: uncompress archive]
-	A ---> D[v: verbose]
-	A ---> E[f: filename, location of archive]
+	A ---> x:extract archive;
+	A ---> z: uncompress archive;
+	A ---> v: verbose;
+	A ---> f: filename, location of archive;
 </div>
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
