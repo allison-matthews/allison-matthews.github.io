@@ -63,7 +63,7 @@ Compressed and/or archived files and directories can have different file endings
 	A--> X;
 	A--> Z;
 	A--> V;
-	A--> F;
+	A--> F[filename];
 </div>
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
