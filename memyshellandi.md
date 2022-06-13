@@ -1,4 +1,8 @@
-﻿# Me, my shell, and I: Tips and tricks for working in a UNIX environment
+-------------------------
+layout: page
+-------------------------
+
+# Me, my shell, and I: Tips and tricks for working in a UNIX environment
 If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at amatthews@carnegiescience.edu or find me in my office (#132). Mike and Peter are available at mgrudic@carnegiescience.edu and psenchyna@carnegiescience.edu and are in offices #1 and #1, respectively.
 ## UNIX Introduction
 UNIX is an operating system first developed in the 1960s, but remains under constant development to this day. It is made up of three parts: 1) the kernel, 2) the shell, and 3) the programs. This is all about the shell---which interfaces between the kernel (the hub of the operating system) and the user (you!). 
