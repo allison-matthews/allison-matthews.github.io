@@ -208,7 +208,8 @@ $ cat --help
 **NB:** There is a package called `cheat` which you can download that gives much more readable information and examples. See the "Resources" section for details on installing and using it.
 ## `top`
 There may come a time when you need to kill a program and `cntrl-c` is not doing the trick. Entering the `top` command in your terminal will list all processes on your computer with their Program ID's (PIDs). 
-![top example](https://lh3.googleusercontent.com/ruUzNUHEw1Z--GPnkyNM2rYRuwEKTRKOp-ImaIY088JDSo-xziQcbc5JJJ9PAQ2hFVigLHCgMNBwtr4yYFaW-ZbdKoIro_m63R7t6CC0cWncicQ6lLhhP5EnNUMNn8md8FKWVWBZH5OrVG0VyetIvdlOIggynbBAXFJIabhGDm2TBhufsJc7JLh1G-xEcBeL7Ux-7kBcJAN1lF7kQMv6kycCmzXDDll-wilOADKEer8nrC3tWALZgELaFrqbUpWORlr_aaEK8N6FiDKCDhIcpOvOORNDHJz_fZx3aijKhbwqFekXpThdoQA6SOqYQhOAvz7WXhIUFgxDlXRuTkzYCL7q2LX4wkZ1CIU_kZzH5PRRtjJBEqfu-OklCuKY3bHiFxs0Gg_Q7J7jlwW9KOx-0az_keh4lcQTbFQJkMySfiW2mzl0uFvZSQ7_1cG16w9ZlT650GNScBD4-TpggsNt7mnTuNPzvsFqeY7Tc-atEuo2vUJGI9bF5_kMBTSa_aCnuEHpwS6ccM0xqeeCPIXXgv_cQZnXHEHHpVsy-zpuIMjc0PRU4jdVuMfHd5pqWlHLIX88MDZXzfwVSfOcF4zoHid8lr14rOdBdUWMJdNgJQ4bPUPq_H-GzPTJbMeSY226YU4Q1JKZUUg5H6B8QPUZEQF6fiojxFIcRDSI7KSZeT_G6IsPzWshCuHYpzYXJ-Va___A2U9-jScPja-eld7hu9ZTNfG8Zm61f2qm89wf1c6MbHMn0PyMQS70qm7n=w748-h513-no?authuser=0)
+![top example](top.png)
+
 If you need to force kill a program, find the associated PID (3130 for example) and type 
 ```bash
 kill 3130  
