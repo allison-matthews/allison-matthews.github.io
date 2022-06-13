@@ -261,6 +261,7 @@ The website https://regex101.com/ allows you to test regular expressions to ensu
 > 1. Use `grep` to find the pizzas that contain onions.
 > 2. Combine `grep` and `sort` to find the pizzas that use the word "organic" the most times. (Hint: remember you can type --help after a command to see additional options!)
 > 3. Head to https://regex101.com/quiz and try out their practice problems!
+
 ## `pipe`, `sort`
 `pipe` allows you to input the output of one command directly into another. Suppose you want to output the _sorted_ contents of a file to the terminal. You can do this by 'piping' the output of `cat` to the command `sort`:
 ![simple pipe example](/img/pipe.png)
