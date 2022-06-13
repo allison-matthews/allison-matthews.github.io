@@ -6,7 +6,7 @@ gh-repo: allison-matthews/allison-matthews.github.io
 comments: true
 ---
 
-If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at amatthews@carnegiescience.edu or find me in my office (#132). Mike and Peter are available at mgrudic@carnegiescience.edu and psenchyna@carnegiescience.edu and are in offices #1 and #1, respectively.
+If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at [amatthews@carnegiescience.edu](mailto:amatthews@carnegiescience.edu) or find me in my office (#132). Mike and Peter are available at [mgrudic@carnegiescience.edu](mgrudic@carnegiescience.edu) and [psenchyna@carnegiescience.edu](psenchyna@carnegiescience.edu).
 
 ## UNIX Introduction
 
@@ -60,10 +60,11 @@ Compressed and/or archived files and directories can have different file endings
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
 </script>
 <div class="mermaid">graph TD;
-	A[tar -xzvf]--> B[x: extract archive];
-	A[tar -xzvf]--> C[z: uncompress archive];
-	A[tar -xzvf]--> D[v: verbose];
-	A[tar -xzvf]--> E[f: filename/location of archive];
+	A[tar -xzvf];
+	A--> B[x: extract archive];
+	A--> C[z: uncompress archive];
+	A--> D[v: verbose];
+	A--> E[f: filename/location of archive];
 </div>
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
