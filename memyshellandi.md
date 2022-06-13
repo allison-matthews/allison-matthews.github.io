@@ -57,8 +57,6 @@ Notice the `-O` in the `curl` command, this is necessary to save the contents to
 ### `tar` and `zip`
 Compressed and/or archived files and directories can have different file endings corresponding to the algorithm used for the compression: `.zip`, `.gz`, `.tar	`, `.tgz`, `.tar.gz`, etc. `tar` was originally designed for creating archives to store files on magnetic tape which is why it has its name “**t**ape **ar**chive”. If there is a **z** in the file extension, it means the file/directory was compressed - files ending simply in `.tar` are uncompressed. There are many options you can use with `tar` when uncompressing a file/directory. A common usage is: `tar -xzvf filename.tar.gz`.
 
-<code class="language-Liquid">{% include_relative mermaid-fragment.html source="mermaid/flowchart.mmd" %}
-</code>
 <div class="mermaid">
 flowchart TD
 A[tar -xzvf];
