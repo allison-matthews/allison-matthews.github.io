@@ -3,8 +3,6 @@ layout: post
 title: Me, my shell, and I
 subtitle: Tips and tricks for working in a UNIX environment
 gh-repo: allison-matthews/allison-matthews.github.io
-gh-badge: [star, fork, follow]
-tags: [test]
 comments: true
 ---
 
