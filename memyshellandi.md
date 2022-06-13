@@ -70,6 +70,18 @@ A ---> E[f: filename, location of archive]
 </script>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
+</script>
+<small>
+  Source file: <a href="https://github.com/n8v-guy/mermaid-gh-page/blob/master/mermaid/flowchart.mmd">mermaid/flowchart.mmd</a>:
+</small>
+<div class="mermaid">graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
+
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
 
 The **ZIP** format supports lossless file compression, and files with the extension `.zip` may contain one or more directories. To extract the contents of a `.zip` archive, use the `unzip` command: `unzip filename.zip`. If  you don't want to see the printed messages: `unzip -q filename.zip` (`-q` means quiet). Likewise, you can use `zip` in the same way to compress a file: `zip filename.zip file` or a directory: `zip -r directoryname.zip directory/`.
