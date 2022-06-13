@@ -272,6 +272,7 @@ If you want to sort a file numerically, use the `-n` option:
 > **Without** opening any files:
 > 1. Combine `wc` with `sort` to list the files from those with the fewest lines to the most lines. 
 > 2. Same as above, but list the files from those with the fewest characters to the most characters. (Hint: remember you can use --help after a command to see additional options!)
+
 ## Connecting to a remote machine
 _(this section came from a previous tutorial put together by Drew Newman and Mahdi Qezlou - thank you!)_
 This summer, some of you may be asked to connect to a remote machine or download/upload files to/from it. You can do it all from your terminal via `ssh` command (**s**ecured **sh**ell). 
