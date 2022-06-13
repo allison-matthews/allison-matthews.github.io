@@ -65,7 +65,7 @@ The **ZIP** format supports lossless file compression, and files with the extens
 > ### Practice:
 > Extract the contents of unixtutorial-main.zip 
 
-![tar comic](https://imgs.xkcd.com/comics/tar_2x.png)
+<center><img src="https://imgs.xkcd.com/comics/tar_2x.png">
 	
 ### Exploring detailed information of files/directories
 If you type `ls` into the command line now, you should see a list of files and subdirectories. In order to list more information on the contents, enter `ls -l`. You should see something similar to the image below.
@@ -95,7 +95,7 @@ Sometimes you may want to change the permission of a file or directory. In order
 ``` bash
 $ chmod go+w README.md
 ```
-![changed permissions](llchmod.png)
+![changed permissions](img/llchmod.png)
 	
 Now the **u**ser, the **g**roup, and all **o**thers can write to the file `README.md`. To remove permissions, use `-` in the place of `+`. As shown above, **g** and **o** correspond to _group_ and _others_ permissions, and it follows that **u** is used when changing _user_ permissions. Without specifying **u**, **g**, or **u**, the default is to change only the user (**u**) permissions.
 
