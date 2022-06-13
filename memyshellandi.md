@@ -5,6 +5,22 @@ subtitle: Tips and tricks for working in a UNIX environment
 gh-repo: allison-matthews/allison-matthews.github.io
 comments: true
 ---
+{%- if content contains 'mermaid' -%}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+<script>
+const config = {
+    startOnLoad:true,
+    theme: 'forest',
+    flowchart: {
+        useMaxWidth:false,
+        htmlLabels:true
+        }
+};
+mermaid.initialize(config);
+window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+{% endif %}
+
 If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at amatthews@carnegiescience.edu or find me in my office (#132). Mike and Peter are available at mgrudic@carnegiescience.edu and psenchyna@carnegiescience.edu and are in offices #1 and #1, respectively.
 
 ## UNIX Introduction
@@ -55,14 +71,14 @@ Notice the `-O` in the `curl` command, this is necessary to save the contents to
 
 ### `tar` and `zip`
 Compressed and/or archived files and directories can have different file endings corresponding to the algorithm used for the compression: `.zip`, `.gz`, `.tar	`, `.tgz`, `.tar.gz`, etc. `tar` was originally designed for creating archives to store files on magnetic tape which is why it has its name “**t**ape **ar**chive”. If there is a **z** in the file extension, it means the file/directory was compressed - files ending simply in `.tar` are uncompressed. There are many options you can use with `tar` when uncompressing a file/directory. A common usage is: `tar -xzvf filename.tar.gz`.
-{% mermaid %}
+```mermaid
 flowchart TD
 A[tar -xzvf];
 A ---> B[x:extract archive]
 A ---> C[z: uncompress archive]
 A ---> D[v: verbose]
 A ---> E[f: filename, location of archive]
-{% endmermaid %}
+```mermaid
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
 
