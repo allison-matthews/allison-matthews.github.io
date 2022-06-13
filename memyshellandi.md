@@ -203,6 +203,7 @@ nano my_new_file.txt
 ![nano text editor](https://lh3.googleusercontent.com/GzTU7gN0F-rRoyysfIjhn8BgRmBoIw92tXffqHNbMv_5gdRUNBhx8OceerJcENqLcu-6BuZnKr8FWjoIIrj-7L6nG2yvNUTo8avd65j5IhdtXUuwUhZ_BTRCzh9fWXe0BEcfADOXAJQ-KISSIl1uJP8D2xSsLi72nxjJDpPOsYS-Ikfnq4T1zROBwsrqQ8_R4r1FcPQDwn6uHVbPIxfAoeClGqh-oGejLbhjBg3xrF9IZbzX8gNZAo9GUdG6hZhCDu_j8jCXZWj3R5fUjuMKizLAntLl0XVApjFfgsQ764PUwiJGGxGICJHNRrWTA-AQFNnFXroacqkutumgUXjeK8st5YgjD6BIG-BtKnPGd4E6Gtm1gXzz_Ab6a-WC8xH2pCX0gI4jqcpZEUzbluco17EXsS8woz1vL7E5O3f5jKNhZllNcC2x8pvycv5XEIENFdykeWkepQD0yrvMis8ZjqaQSnzkdrW-2i3EQMhkVVqNUaOa2mwJrgp0BNkP8nT9Y5PvjQHrTh8a1AQp6iCyIADLChF706o-PuJy4Yl-uxkMaKEfjJgsWUNmRrRY9_rG3Xuw1rhDPOn72OUOh3TYmLmXNNtcaZDx_A544ITGiBU8-AhVCQGpcgst7iDMPM8Gd2pSjgPaXYTvmAPF2g9GLONINXyjMgLCDhN24w2M4IYOs2zF04ezyKJcksXIY6uFv57idfFwzLLZR_oohatvz58Pb3ZeHrQuVDRq4XhjwNh6QkMK28nLeiBIYg=w1518-h804-no?authuser=0)
 > ### Practice:
 > Work with your neighbor to create a $\texttt{python}$ program that prints "Hello Carnegie!" using nano. To run your $\texttt{python}$ program, type: `python program.py` on the command line.
+
 ## Miscellaneous, but very useful, commands
 A note before going through individual commands: if you ever need more information on what a command does or what additional options you can feed it to get a certain output, use `man` (**man**ual) or `--help`.
 ```bash
