@@ -46,7 +46,7 @@ There are two command line tools commonly used to download files from a server: 
 
 In the `cassi` directory, we are going to download a sample directory set to play around with. To download with `wget`:
 ```bash
-wget https://github.com/allison-matthews/unixtutorial/archive/main.zip
+$ wget https://github.com/allison-matthews/unixtutorial/archive/main.zip
 ```
 and to download with `curl`:
 ``` bash
