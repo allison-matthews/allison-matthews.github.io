@@ -63,7 +63,7 @@ A ---> B[x:extract archive]
 A ---> C[z: uncompress archive]
 A ---> D[v: verbose]
 A ---> E[f: filename, location of archive]
-```mermaid
+```
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
 
