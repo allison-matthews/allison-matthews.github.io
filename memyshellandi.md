@@ -236,7 +236,7 @@ kill 3130
 `top` is also useful for determining how much memory and CPU a program is using. If a program seems to be running much more slowly than you anticipated, it could be because there is no more available RAM (random access memory). 
 ## `cat`
 The `cat` command (short for con**cat**enate) outputs the contents of a file to the command line. 
-![cat example](/img/catEx/png)
+![cat example](/img/catEx.png)
 It works on multiple files.
 ![cat on multiple files](/img/catMultiple.png)
 [Here](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/?ref=lbp) is a good resource for more information and examples on how you can use `cat`, including printing the output of file with line numbers, creating files, copying the contents of a file to another. My favorite: to display the lines of a file in reverse order use `tac` instead of `cat` :joy:.
