@@ -226,7 +226,9 @@ $ cat --help
 **NB:** There is a package called `cheat` which you can download that gives much more readable information and examples. See the "Resources" section for details on installing and using it.
 ## `top`
 There may come a time when you need to kill a program and `cntrl-c` is not doing the trick. Entering the `top` command in your terminal will list all processes on your computer with their Program ID's (PIDs). 
+
 ![top example](/img/top.png)
+
 If you need to force kill a program, find the associated PID (3130 for example) and type 
 ```bash
 kill 3130  
