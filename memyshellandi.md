@@ -50,7 +50,7 @@ wget https://github.com/allison-matthews/unixtutorial/archive/main.zip
 ```
 and to download with `curl`:
 ``` bash
-$ curl -O https://github.com/allison-matthews/unixtutorial/archive/main.zip filename
+$ curl -O https://github.com/allison-matthews/unixtutorial/archive/main.zip
 ```
 Notice the `-O` in the `curl` command, this is necessary to save the contents to a file/directory, otherwise everything would be printed on the command line. `wget` will automatically saves the contents to a file/directory.
 
