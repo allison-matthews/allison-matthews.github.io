@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: minimal
 ---
 
 # Me, my shell, and I: Tips and tricks for working in a UNIX environment
