@@ -141,6 +141,8 @@ staticman:
     siteKey  : # Use your own site key, you need to apply for one on Google
     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
+mermaid:
+  src: "/js/mermaid.js"
 # --- Misc --- #
 
 # Facebook App ID
