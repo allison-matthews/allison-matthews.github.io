@@ -249,10 +249,12 @@ The commands `head` and `tail` enable you to view the first (`head`) or last (`t
 
 ## `grep` 
 **Regular Expressions** are used for textual pattern matching and is almost a computer language onto itself. It is built into most modern programming languages (the python package is called `re`) and text editors. On the command line, you can use regular expressions through the `grep` command (**g**et **r**egular **e**x**p**ression). To use `grep`:
+
 ```bash 
 $ grep <pattern> <files to search>
 ```
 Here are some simple search examples:
+
 | grep input | translation |
 | -- | -- |
 | `$ grep cheese carne.txt` | select all lines in carne.txt containing 'cheese' |
