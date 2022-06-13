@@ -129,7 +129,7 @@ OR
 ```bash
 mv flatbread/makepizza.py .
 ```
-The period `.` indicates the current directory, so that command is telling the computer to move the file `makepizza.py` from the `flatbread/` directory into the current directory, keeping its name `makepizza.py`. There are times when you may want to move a file to a different directory and change its name in the new directory. This can be done with one command in the terminal. For example, to move the $\texttt{python}$ program `makepizza.py` into the `flatbread/` sub-directory and change its name to `make_me_a_pizza.py`:
+The period `.` indicates the current directory, so that command is telling the computer to move the file `makepizza.py` from the `flatbread/` directory into the current directory, keeping its name `makepizza.py`. There are times when you may want to move a file to a different directory and change its name in the new directory. This can be done with one command in the terminal. For example, to move the python program `makepizza.py` into the `flatbread/` sub-directory and change its name to `make_me_a_pizza.py`:
 ```bash
 > mv makepizza.py flatbread/make_me_a_pizza.py
 ```
@@ -154,7 +154,7 @@ The period `.` indicates the current directory, so that command is telling the c
 ## Control Characters
 Your mouse won't be able to move your cursor on the command line, but control characters allow you to move around with ease. You might even find it faster. Here are some scenarios where control characters come in handy:
 
-1. Suppose you're trying to run a $\texttt{python}$ script and notice you made a typo at the very beginning of the line. Instead of hitting the left arrow repeatedly in frustration, you can type `cntrl-a` and your cursor will move to the start of the line.
+1. Suppose you're trying to run a python script and notice you made a typo at the very beginning of the line. Instead of hitting the left arrow repeatedly in frustration, you can type `cntrl-a` and your cursor will move to the start of the line.
 2. Sometimes you haven't had your tea or coffee yet and you start running a program before realizing you forgot to change a parameter or filename within the code. The good news is you don't have to wait until the program finishes to go back and make your changes. Instead, typing `cntrl-c` into the terminal will cancel whatever command is running.
 
 Below is an incomplete list of some control characters that make life just a little more efficient:
@@ -205,13 +205,13 @@ alias emasc='emacs'
 ```
 ## Text editors via the terminal
 ![emacs vs vim](https://imgs.xkcd.com/comics/real_programmers.png){: .center-block :}
-Jupyter notebooks are useful for some things, but you often want to create and run $\texttt{python}$ programs directly from the command line. There are many text editors, but two extremely popular (and therefore likely to be available on most computers) are _emacs_ and _vim_. Scientists and programmers have been arguing about which is better for _decades_ (see above comic), but in reality they both get the job done. A good text editor to start with is _nano_. To create a file with _nano_:
+Jupyter notebooks are useful for some things, but you often want to create and run python programs directly from the command line. There are many text editors, but two extremely popular (and therefore likely to be available on most computers) are _emacs_ and _vim_. Scientists and programmers have been arguing about which is better for _decades_ (see above comic), but in reality they both get the job done. A good text editor to start with is _nano_. To create a file with _nano_:
 ```bash
 nano my_new_file.txt
 ```
 ![nano text editor](https://lh3.googleusercontent.com/GzTU7gN0F-rRoyysfIjhn8BgRmBoIw92tXffqHNbMv_5gdRUNBhx8OceerJcENqLcu-6BuZnKr8FWjoIIrj-7L6nG2yvNUTo8avd65j5IhdtXUuwUhZ_BTRCzh9fWXe0BEcfADOXAJQ-KISSIl1uJP8D2xSsLi72nxjJDpPOsYS-Ikfnq4T1zROBwsrqQ8_R4r1FcPQDwn6uHVbPIxfAoeClGqh-oGejLbhjBg3xrF9IZbzX8gNZAo9GUdG6hZhCDu_j8jCXZWj3R5fUjuMKizLAntLl0XVApjFfgsQ764PUwiJGGxGICJHNRrWTA-AQFNnFXroacqkutumgUXjeK8st5YgjD6BIG-BtKnPGd4E6Gtm1gXzz_Ab6a-WC8xH2pCX0gI4jqcpZEUzbluco17EXsS8woz1vL7E5O3f5jKNhZllNcC2x8pvycv5XEIENFdykeWkepQD0yrvMis8ZjqaQSnzkdrW-2i3EQMhkVVqNUaOa2mwJrgp0BNkP8nT9Y5PvjQHrTh8a1AQp6iCyIADLChF706o-PuJy4Yl-uxkMaKEfjJgsWUNmRrRY9_rG3Xuw1rhDPOn72OUOh3TYmLmXNNtcaZDx_A544ITGiBU8-AhVCQGpcgst7iDMPM8Gd2pSjgPaXYTvmAPF2g9GLONINXyjMgLCDhN24w2M4IYOs2zF04ezyKJcksXIY6uFv57idfFwzLLZR_oohatvz58Pb3ZeHrQuVDRq4XhjwNh6QkMK28nLeiBIYg=w1518-h804-no?authuser=0)
 > ### Practice:
-> Work with your neighbor to create a $\texttt{python}$ program that prints "Hello Carnegie!" using nano. To run your $\texttt{python}$ program, type: `python program.py` on the command line.
+> Work with your neighbor to create a python program that prints "Hello Carnegie!" using nano. To run your python program, type: `python program.py` on the command line.
 
 ## Miscellaneous, but very useful, commands
 A note before going through individual commands: if you ever need more information on what a command does or what additional options you can feed it to get a certain output, use `man` (**man**ual) or `--help`.
@@ -245,7 +245,7 @@ The commands `head` and `tail` enable you to view the first (`head`) or last (`t
 ![head/tail example](/img/headtailwc.png)
 
 ## `grep` 
-**Regular Expressions** are used for textual pattern matching and is almost a computer language onto itself. It is built into most modern programming languages (the $\texttt{python}$ package is called `re`) and text editors. On the command line, you can use regular expressions through the `grep` command (**g**et **r**egular **e**x**p**ression). To use `grep`:
+**Regular Expressions** are used for textual pattern matching and is almost a computer language onto itself. It is built into most modern programming languages (the python package is called `re`) and text editors. On the command line, you can use regular expressions through the `grep` command (**g**et **r**egular **e**x**p**ression). To use `grep`:
 ```bash 
 $ grep <pattern> <files to search>
 ```
