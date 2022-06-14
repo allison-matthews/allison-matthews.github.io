@@ -26,12 +26,12 @@ On a Mac: ⌘ _Cmd_ + _Space_ and type _terminal_, hit enter.
 On a Linux: Click _Applications_ &rarr; _System Tools_ &rarr; _Terminal_.
 On a Windows: (to-do)
 
-There are different types of shells (e.g. `bash`, `csh`, `zcsh`, etc.), but we will be using the `bash` shell. To check what shell you're using, type: `echo $SHELL` in the terminal. `echo` teWe'lls the terminal to write the given text to screen. For example:
+There are different types of shells (e.g. `bash`, `csh`, `zcsh`, etc.), but we will be using the `bash` shell. To check what shell you're using, type: `echo $SHELL` in the terminal. `echo` tells the terminal to write the given text to screen. For example:
 ```bash
 $ echo 'Am I a cat?'
 Am I a cat?
 ```
-The  before echo just indicates the beginning of the line on a Linux-based machine. It may differ depending on whether you are using a Linux  or a Mac machine.
+The $ before echo just indicates the beginning of the line on a Linux-based machine. It may differ depending on whether you are using a Linux  or a Mac machine.
 
 ## Directories and Navigation
 Let's get familiar with navigating the filesystem on our computer. The home directory is indicated by the special character **~**. On a Mac, this is equivalent to /Users/[your computer name]. 
@@ -42,7 +42,7 @@ $ mkdir cassi
 ```
 This will create a new directory named `cassi` (you can name it whatever you want!) in the home directory. To enter the directory, type `cd cassi`. If you want to list all files and subdirectories within a directory, type `ls`. Since we just created this directory, there are no files and nothing should appear.
 
-There are two command line tools commonly used to download files from a server: `wget` and `curl`. `wget` is a simpler transfer utility that can be used with urls beginning with http,https, ftp, and ftps. `curl` has expanded capabilities, such has supporting more protocols (sets of rules governing the communication and exchange of data over the internet) and more options for uploading files. If it's a simple task, `wget` is most likely sufficient.
+There are two command line tools commonly used to download files from a server: `wget` and `curl`. `wget` is a simpler transfer utility that can be used with urls beginning with http,https, ftp, and ftps. `curl` has expanded capabilities, such as supporting more protocols (sets of rules governing the communication and exchange of data over the internet) and more options for uploading files. If it's a simple task, `wget` is most likely sufficient.
 
 In the `cassi` directory, we are going to download a sample directory set to play around with. To download with `wget`:
 ```bash
@@ -110,7 +110,7 @@ Sometimes you may want to change the permission of a file or directory. In order
 $ chmod go+w README.md
 ```
 ![changed permissions](/img/llchmod.png)
-Now the **u**ser, the **g**roup, and all **o**thers can write to the file `README.md`. To remove permissions, use `-` in the place of `+`. As shown above, **g** and **o** correspond to _group_ and _others_ permissions, and it follows that **u** is used when changing _user_ permissions. Without specifying **u**, **g**, or **u**, the default is to change only the user (**u**) permissions.
+Now the **u**ser, the **g**roup, and all **o**thers can write to the file `README.md`. To remove permissions, use `-` in the place of `+`. As shown above, **g** and **o** correspond to _group_ and _others_ permissions, and it follows that **u** is used when changing _user_ permissions. Without specifying **u**, **g**, or **o**, the default is to change only the user (**u**) permissions.
 
 You may have noticed that my sample directory is named `unixpizza` instead of ``unixtutorial-main``. The `mv` (move) command changes a file's complete path, so we can use the command to simply change a file or directory name. For example, while in the `cassi` directory, you can input the following the change the directory name of `unixtutorial-main` to something easier to type.
 ``` bash
@@ -210,7 +210,8 @@ Jupyter notebooks are useful for some things, but you often want to create and r
 ```bash
 nano my_new_file.txt
 ```
-![nano text editor](https://lh3.googleusercontent.com/GzTU7gN0F-rRoyysfIjhn8BgRmBoIw92tXffqHNbMv_5gdRUNBhx8OceerJcENqLcu-6BuZnKr8FWjoIIrj-7L6nG2yvNUTo8avd65j5IhdtXUuwUhZ_BTRCzh9fWXe0BEcfADOXAJQ-KISSIl1uJP8D2xSsLi72nxjJDpPOsYS-Ikfnq4T1zROBwsrqQ8_R4r1FcPQDwn6uHVbPIxfAoeClGqh-oGejLbhjBg3xrF9IZbzX8gNZAo9GUdG6hZhCDu_j8jCXZWj3R5fUjuMKizLAntLl0XVApjFfgsQ764PUwiJGGxGICJHNRrWTA-AQFNnFXroacqkutumgUXjeK8st5YgjD6BIG-BtKnPGd4E6Gtm1gXzz_Ab6a-WC8xH2pCX0gI4jqcpZEUzbluco17EXsS8woz1vL7E5O3f5jKNhZllNcC2x8pvycv5XEIENFdykeWkepQD0yrvMis8ZjqaQSnzkdrW-2i3EQMhkVVqNUaOa2mwJrgp0BNkP8nT9Y5PvjQHrTh8a1AQp6iCyIADLChF706o-PuJy4Yl-uxkMaKEfjJgsWUNmRrRY9_rG3Xuw1rhDPOn72OUOh3TYmLmXNNtcaZDx_A544ITGiBU8-AhVCQGpcgst7iDMPM8Gd2pSjgPaXYTvmAPF2g9GLONINXyjMgLCDhN24w2M4IYOs2zF04ezyKJcksXIY6uFv57idfFwzLLZR_oohatvz58Pb3ZeHrQuVDRq4XhjwNh6QkMK28nLeiBIYg=w1518-h804-no?authuser=0)
+![nano text editor](/img/newfile.png)
+
 > ### Practice:
 > Work with your neighbor to create a python program that prints "Hello Carnegie!" using nano. To run your python program, type: `python program.py` on the command line.
 
@@ -326,4 +327,5 @@ The `-a` option preserves some info on the files like ownership, groups, permiss
 	brew install cheat
 	```
 	* Or you can look at additional ways to install it [here](https://formulae.brew.sh/formula/cheat#default).
-	* Here is an example of what the `cheat` command outputs when you use it. It gives you not only directions for use, but real examples with explanations. **NB:** `tail -f` can be very useful if you're having a program update a file and you want to check on its progress!![cheat example](https://lh3.googleusercontent.com/JUJmvNKOTzECbCy81jxahUgXqQOr8BTQdWFVjxVhD-k7vewpqJD920fnn-XCTOZnakShzObM2nwt6q-KoRQjP2YOTGZEQWQYssIgx5yZaINDzl3111wTi5G0I8hQlvWbEXvKfWU1qapUS3pawGPFKT-MLlXp2zkh4hlBwbmHMxOulVOrTobmmD8dLKPLKP5GFpavPt37CFqlYQsrLWEUymC7dqL-8VBTMBo3BRVFfqOCLSodlLFCBjVwGyy0nmJkXH8XMOvw52nB5Wj1I1H-wi-tdFcgmYyh_gADjZ5sW2pYHUElAO1REZ03d3Wd2wFKFT4K1TRjFvTYmyGLMJTYKSx9YFl1gwEef7p7JmRjo_Hqtuujd5pCUV1nPjHPvU-V_Stqrx_8O1Bt3ElM4PGSXLDapUKY0tQBLIVYL1Y0e74AIOq65Pkv_vA8m3PeJc-oCVOB_Pu7BjoWdR2Of5nDWeyi9h-7xK4xZiRbOrVuEwWbgNvKPFODxQtBgW6qnTqkZRYg2DWVeuRnmhdVFUkYCReBknh4kct2pDh4ee5eTVBVLsZGzS6ojBIX8gFB9oxCFJNugWYT16z7A2K4Ix2sdAEl2PSX9wbFdrfkI0OA7ILN2dsa6yUulqkovs0lp1bVcMyY0NoV3ob3d8_sqKWVoXVF06QiYXp_9OZ7wkKeRFSCIe-7pK3bKSPZE-kSVO75qQ8XaeJc1YSKVErs8DCz0WPuTecEEcE6mUBFw7ncrQN6RKfEiJUspFt6Ug=w1882-h904-no?authuser=0)
+	* Here is an example of what the `cheat` command outputs when you use it. It gives you not only directions for use, but real examples with explanations. **NB:** `tail -f` can be very useful if you're having a program update a file and you want to check on its progress!
+	![cheat example](/img/cheat.png)
