@@ -8,4 +8,4 @@ gem 'jekyll-paginate'
 gem 'jekyll-spaceship'
 #group: :jekyll_plugins do
 #  gem 'jekyll-mermaid'
-end
+#end
