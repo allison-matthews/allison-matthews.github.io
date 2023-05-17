@@ -621,12 +621,12 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: #4f5163;
   margin: 0;
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #616375;
 }
 table tr th {
   font-weight: bold;
@@ -658,7 +658,7 @@ pre {
 }
 .highlight pre {
   border: none;
-  background: rgba(219,233,355);
+  background: rgba(240,243,247);
   margin: 0;
 }
 .highlight > pre {
