@@ -24,7 +24,7 @@ It's powerful, but don't take my word for it. The research publication _Nature_ 
 There are many ways to open a terminal (also called the "command line") on either Mac or Linux machines, but here are some quick options:
 On a Mac: ⌘ _Cmd_ + _Space_ and type _terminal_, hit enter.
 On a Linux: Click _Applications_ &rarr; _System Tools_ &rarr; _Terminal_.
-On a Windows: (to-do)
+On a Windows: (Your machine should have `bash` accesible from the Windows Terminal, or if you have Visual Studio you can use that! We will help you figure it out.)
 
 There are different types of shells (e.g. `bash`, `csh`, `zsh`, etc.), but we will be using the `bash` shell. To check what shell you're using, type: `echo $SHELL` in the terminal. `echo` tells the terminal to write the given text to screen. For example:
 ```bash
