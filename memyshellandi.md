@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Me, my shell, and I
-subtitle: Tips and tricks for working in a UNIX environment
+subtitle: Tips and tricks for working in a UNIX-like environment
 gh-repo: allison-matthews/allison-matthews.github.io
 comments: true
 ---
