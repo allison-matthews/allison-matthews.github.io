@@ -26,7 +26,7 @@ On a Mac: ⌘ _Cmd_ + _Space_ and type _terminal_, hit enter.
 On a Linux: Click _Applications_ &rarr; _System Tools_ &rarr; _Terminal_.
 On a Windows: (to-do)
 
-There are different types of shells (e.g. `bash`, `csh`, `zcsh`, etc.), but we will be using the `bash` shell. To check what shell you're using, type: `echo $SHELL` in the terminal. `echo` tells the terminal to write the given text to screen. For example:
+There are different types of shells (e.g. `bash`, `csh`, `zsh`, etc.), but we will be using the `bash` shell. To check what shell you're using, type: `echo $SHELL` in the terminal. `echo` tells the terminal to write the given text to screen. For example:
 ```bash
 $ echo 'Am I a cat?'
 Am I a cat?
