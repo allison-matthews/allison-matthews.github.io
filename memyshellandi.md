@@ -60,7 +60,7 @@ Compressed and/or archived files and directories can have different file endings
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.1.1/mermaid.min.js">
 </script>
 <div class="mermaid">graph TD;
-	%%{init: {'theme':'forest'}}%%
+	%%{init: {'theme':'dark'}}%%
 	A[tar -xzvf];
 	A--> B[x: extract archive];
 	A--> C[z: uncompress archive];
@@ -85,6 +85,7 @@ Lines that begin with **d** indicate directories. The first column lists the fil
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
 </script>
 <div class="mermaid">graph TD;
+	%%{init: {'theme':'dark'}}%%
 	A[Permissions] & B[User] & C[Group] & D[Size] & E[Creation time] & F[filename];
 	A-->G[drwxr-xr-x];
 	B-->H[amatthews];
@@ -99,6 +100,7 @@ Let's explore the Permissions a little more:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
 </script>
 <div class="mermaid">graph TD;
+	%%{init: {'theme':'dark'}}%%
 	A[drwxr-xr-x];
 	A --> B([d: directory]);
 	A --> C([rwx: USER can read, <br/> write, and execute]);
