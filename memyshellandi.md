@@ -65,7 +65,8 @@ Compressed and/or archived files and directories can have different file endings
 	A--> C[z: uncompress archive];
 	A--> D[v: verbose];
 	A--> E[f: filename/location of archive];
-	linkStyle default stroke-width:2px,color:red;
+	
+	linkStyle default stroke:red;
 </div>
 
 To create an archive with `tar`, you might use something like: `tar -czvf`. To list the contents of an archive: `tar -tzvf filename`.
