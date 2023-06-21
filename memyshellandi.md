@@ -6,7 +6,7 @@ gh-repo: allison-matthews/allison-matthews.github.io
 comments: true
 ---
 
-If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at [amatthews@carnegiescience.edu](mailto:amatthews@carnegiescience.edu) or find me in my office (#132). Mahdi and Peter are available at [mqezlou@carnegiescience.edu](mqezlou@carnegiescience.edu) and [psenchyna@carnegiescience.edu](psenchyna@carnegiescience.edu).
+If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at [amatthews@carnegiescience.edu](mailto:amatthews@carnegiescience.edu) or find me in my office (#132). Mahdi and Peter are available at [mqezlou@carnegiescience.edu](mailto:mqezlou@carnegiescience.edu) and [psenchyna@carnegiescience.edu](mailto:psenchyna@carnegiescience.edu).
 
 ## UNIX Introduction
 
