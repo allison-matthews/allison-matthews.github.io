@@ -23,9 +23,9 @@ navbar-links:
 #  About Me: "aboutme"
   Publications: "https://ui.adsabs.harvard.edu/public-libraries/tntUYs33QR-B2rjyrzUSbw"
   CV: "cv"
-  Outreach: "outreach"
   Resources: 
     - UNIX tutorial: "memyshellandi"
+  Outreach: "outreach"
 #  Research: 
 #    - Current Work: "research"
 #    - Past: "old_research"
@@ -48,7 +48,7 @@ avatar: "/img/logo2.png"
 
 navbar-col: "#282a36"
 navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
+navbar-children-col: "#282a36"
 page-col: "#282a36"
 link-col: "#008AFF"
 hover-col: "#0085A1"
