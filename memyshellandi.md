@@ -60,6 +60,7 @@ Compressed and/or archived files and directories can have different file endings
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.1.1/mermaid.min.js">
 </script>
 <div class="mermaid">graph TD;
+	%%{init: {'theme':'forest'}}%%
 	A[tar -xzvf];
 	A--> B[x: extract archive];
 	A--> C[z: uncompress archive];
