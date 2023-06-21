@@ -251,7 +251,7 @@ It works on multiple files.
 The commands `head` and `tail` enable you to view the first (`head`) or last (`tail`) lines of a file without having to open it. By default, these commands will show the first/last 10 lines. If you want to only see the first/last 3 lines, you can use the `-n` option followed by the number of lines you wish to see. There is also a command called `wc` (**w**ord **c**ount) which tells you three statistics about a file: 1) the number of lines, 2) the number of words, and 3) the number of characters. See the example below.
 ![head/tail example](/img/headtailwc.png)
 
-## `grep` 
+## `grep`, `sed` 
 **Regular Expressions** are used for textual pattern matching and is almost a computer language onto itself. It is built into most modern programming languages (the python package is called `re`) and text editors. On the command line, you can use regular expressions through the `grep` command (**g**et **r**egular **e**x**p**ression). To use `grep`:
 
 ```bash 
@@ -282,6 +282,8 @@ The website https://regex101.com/ allows you to test regular expressions to ensu
 > 1. Use `grep` to find the pizzas that contain onions.
 > 2. Combine `grep` and `sort` to find the pizzas that use the word "organic" the most times. (Hint: remember you can type --help after a command to see additional options!)
 > 3. Head to https://regex101.com/quiz and try out their practice problems!
+
+`sed` stands for **s**tream **ed**itor, and while it has a ton of capabilities (e.g. searching through a file, find and replace, insertion and deletion) the most common thing it is used for is find and replace. For example, in the past I've run programs that needed a separate file that listed the values of parameters being used. I wanted to run the program many times for a range of parameters, so instead of manually opening the file, finding the right line, and making the change, I used `sed`! If you want more examples of how to use it, go [here](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/).
 
 ## `pipe`, `sort`
 `pipe` allows you to input the output of one command directly into another. Suppose you want to output the _sorted_ contents of a file to the terminal. You can do this by 'piping' the output of `cat` to the command `sort`:
