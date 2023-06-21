@@ -208,6 +208,7 @@ const setParseErrorHandler = function (newParseErrorHandler) {
 
 const mermaid = {
   startOnLoad: true,
+  theme: 'dark',
   htmlLabels: true,
 
   mermaidAPI,
