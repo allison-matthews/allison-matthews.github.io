@@ -24,6 +24,8 @@ navbar-links:
   Publications: "https://ui.adsabs.harvard.edu/public-libraries/tntUYs33QR-B2rjyrzUSbw"
   CV: "cv"
   Outreach: "outreach"
+  Resources: 
+     - UNIX tutorial: "memyshellandi"
 #  Research: 
 #    - Current Work: "research"
 #    - Past: "old_research"
