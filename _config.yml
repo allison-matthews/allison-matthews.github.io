@@ -25,6 +25,7 @@ navbar-links:
   CV: "cv"
   Resources: 
     - UNIX tutorial: "memyshellandi"
+    - Astro Activities: "astroactivities"
   Outreach: "outreach"
 #  Research: 
 #    - Current Work: "research"
