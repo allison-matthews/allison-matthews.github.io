@@ -6,6 +6,8 @@ image: /img/springbok.jpg
 ## Books
 [The Evolution of Radio Astronomy by J.S. Hey](https://www.betterworldbooks.com/product/detail/the-evolution-of-radio-astronomy-9780882020273)
 
+Essential Radio Astronomy (textbook at the level of a upper-level physics undergraduate): [Essential Radio Astronomy, physical](https://press.princeton.edu/books/hardcover/9780691137797/essential-radio-astronomy), [Essential Radio Astronomy, web](https://science.nrao.edu/opportunities/courses/era/)
+
 ## History and News
 Grote Reber (1911-2022): [Nature News](https://www.nature.com/articles/421596a)
 
