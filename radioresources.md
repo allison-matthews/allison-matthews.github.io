@@ -9,6 +9,8 @@ image: /img/springbok.jpg
 Essential Radio Astronomy (textbook at the level of a upper-level physics undergraduate): [Essential Radio Astronomy (physical copy)](https://press.princeton.edu/books/hardcover/9780691137797/essential-radio-astronomy), [Essential Radio Astronomy (web)](https://science.nrao.edu/opportunities/courses/era/)
 
 ## History and News
+Linking our Lineage: From Radio Operator to Radio Receiver: [NRAO blog post](https://public.nrao.edu/blogs/linking-our-lineage-from-radio-operator-to-radio-receiver/)
+
 Grote Reber (1911-2022): [Nature News](https://www.nature.com/articles/421596a)
 
 Oral Histories interview with Maarten Schmidt---the first to determine the distance to a quasar: [AIP Oral Histories Interview](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4861)
