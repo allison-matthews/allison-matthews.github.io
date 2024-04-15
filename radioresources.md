@@ -4,7 +4,7 @@ title: Radio Astronomy Resources
 image: /img/springbok.jpg
 ---
 ## Books
-[The Evolution of Radio Astronomy by J.S. Hey](https://www.betterworldbooks.com/product/detail/the-evolution-of-radio-astronomy-9780882020273)
+The Evolution of Radio Astronomy by J.S. Hey: [The Evolution of Radio Astronomy (physical copy)](https://www.betterworldbooks.com/product/detail/the-evolution-of-radio-astronomy-9780882020273)
 
 Essential Radio Astronomy (textbook at the level of a upper-level physics undergraduate): [Essential Radio Astronomy (physical copy)](https://press.princeton.edu/books/hardcover/9780691137797/essential-radio-astronomy), [Essential Radio Astronomy (web)](https://science.nrao.edu/opportunities/courses/era/)
 
