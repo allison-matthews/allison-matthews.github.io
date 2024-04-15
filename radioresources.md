@@ -17,6 +17,8 @@ Essential Radio Astronomy (textbook at the level of a upper-level physics underg
 
 *Grote Reber (1911-2022)*: [Nature News](https://www.nature.com/articles/421596a)
 
+*What we've learned in 60 years of studying quasars*: [astronomy.com article](https://www.astronomy.com/science/60-years-of-quasars/)
+
 Oral Histories interview with Maarten Schmidt---the first to determine the distance to a quasar: [AIP Oral Histories Interview](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4861)
 
 Remembering Maarten Schmidt, 1929--2022: [Caltech News](https://www.caltech.edu/about/news/caltech-mourns-the-passing-of-maarten-schmidt-1929-2022)
