@@ -5,6 +5,8 @@ image: /img/springbok.jpg
 ---
 
 ## History
+Grote Reber (1911-2022): [Nature News](https://www.nature.com/articles/421596a)
+
 Oral Histories interview with Maarten Schmidt---the first to determine a quasar's redshift and is credited with discovering quasars: [AIP Oral Histories Interview](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4861)
 
 Remembering Maarten Schmidt, 1929--2022: [Caltech News](https://www.caltech.edu/about/news/caltech-mourns-the-passing-of-maarten-schmidt-1929-2022)
