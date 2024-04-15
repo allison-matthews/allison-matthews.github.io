@@ -6,7 +6,7 @@ image: /img/springbok.jpg
 ## Books
 [The Evolution of Radio Astronomy by J.S. Hey](https://www.betterworldbooks.com/product/detail/the-evolution-of-radio-astronomy-9780882020273)
 
-Essential Radio Astronomy (textbook at the level of a upper-level physics undergraduate): [Essential Radio Astronomy, physical](https://press.princeton.edu/books/hardcover/9780691137797/essential-radio-astronomy), [Essential Radio Astronomy, web](https://science.nrao.edu/opportunities/courses/era/)
+Essential Radio Astronomy (textbook at the level of a upper-level physics undergraduate): [Essential Radio Astronomy (physical copy)](https://press.princeton.edu/books/hardcover/9780691137797/essential-radio-astronomy), [Essential Radio Astronomy (web)](https://science.nrao.edu/opportunities/courses/era/)
 
 ## History and News
 Grote Reber (1911-2022): [Nature News](https://www.nature.com/articles/421596a)
@@ -16,6 +16,8 @@ Oral Histories interview with Maarten Schmidt---the first to determine the dista
 Remembering Maarten Schmidt, 1929--2022: [Caltech News](https://www.caltech.edu/about/news/caltech-mourns-the-passing-of-maarten-schmidt-1929-2022)
 
 Discovery of the Cosmic Microwave Background: [American Physical Society's "This Month in Physics History" article](https://aps.org/publications/apsnews/200207/history.cfm)
+
+1978 Nobel Prize in Physics Press Release: [to Arno Allan Penzias and Robert Woodrow Wilson "for their discovery of cosmic microwave background radiation"](https://www.nobelprize.org/prizes/physics/1978/summary/)
 
 Solving the mystery of perytons: [*It's the microwave: how astronomers discovered source of mysterious radio signals*, Nature News](https://www.nature.com/nature-index/news/its-the-microwave-how-astronomers-discovere-source-of-mysterious-radio-signals)
 
