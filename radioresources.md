@@ -3,6 +3,10 @@ layout: post
 title: Radio Astronomy Resources
 image: /img/springbok.jpg
 ---
+*Exploring the fascinating history and science of radio astronomy through the links below!*
+
+On April 15th, 2024 I gave a talk titled "Tuning into the Invisible Universe" at the Huntington Library in Pasadena, CA as a part of the Carnegie Science Astronomy Lecture Series. View the recording [here](https://www.youtube.com/watch?v=0nZnvE-Dljg).
+
 ## Books
 The Evolution of Radio Astronomy by J.S. Hey: [The Evolution of Radio Astronomy (physical copy)](https://www.betterworldbooks.com/product/detail/the-evolution-of-radio-astronomy-9780882020273)
 
