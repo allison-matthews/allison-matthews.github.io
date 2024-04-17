@@ -3,7 +3,7 @@ layout: post
 title: Radio Astronomy Resources
 image: /img/springbok.jpg
 ---
-*Exploring the fascinating history and science of radio astronomy through the links below!*
+*Explore the fascinating history and science of radio astronomy through the links below!*
 
 On April 15th, 2024 I gave a talk titled "Tuning into the Invisible Universe" at the Huntington Library in Pasadena, CA as a part of the Carnegie Science Astronomy Lecture Series. View the recording [here](https://www.youtube.com/watch?v=0nZnvE-Dljg).
 
