@@ -8,7 +8,7 @@ If you have any questions---or discover cool UNIX tricks---please get in touch! 
 
 ## UNIX Introduction
 
-UNIX is an operating system first developed in the 1960s, but remains under constant development to this day. It is made up of three parts: 1. the kernel, 2. the shell, and 3. the programs. This is all about the shell---which interfaces between the kernel (the hub of the operating system) and the user (you!). Testing testing
+UNIX is an operating system first developed in the 1960s, but remains under constant development to this day. It is made up of three parts: 1. the kernel, 2. the shell, and 3. the programs. This is all about the shell---which interfaces between the kernel (the hub of the operating system) and the user (you!). Testing testing test
 
 ![unix](https://res.cloudinary.com/practicaldev/image/fetch/s--rpWCPbkI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/14ajqxtcah1yx2e9kgzk.jpg)
 
@@ -96,7 +96,6 @@ The **ZIP** format supports lossless file compression, and files with the extens
 ### Exploring detailed information of files/directories
 
 If you type `ls` into the command line now, you should see a list of files and subdirectories. In order to list more information on the contents, enter `ls -l`. You should see something similar to the image below.
-
 
 ![ls -l example](/img/llexample.png)
 
@@ -303,24 +302,19 @@ kill 3130
 
 The `cat` command (short for con**cat**enate) outputs the contents of a file to the command line. 
 
-
 ![cat example](/img/catEx.png)
 
-
 It works on multiple files.
-
 
 ![cat on multiple files](/img/catMultiple.png)
 
 Here](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/?ref=lbp) is a good resource for more information and examples on how you can use `cat`, including printing the output of file with line numbers, creating files, copying the contents of a file to another. My favorite: to display the lines of a file in reverse order use `tac` instead of `cat` (clever).
-
 
 ![tac example](/img/tac.png)
 
 ## `head`, `tail`, `wc`
 
 The commands `head` and `tail` enable you to view the first (`head`) or last (`tail`) lines of a file without having to open it. By default, these commands will show the first/last 10 lines. If you want to only see the first/last 3 lines, you can use the `-n` option followed by the number of lines you wish to see. There is also a command called `wc` (**w**ord **c**ount) which tells you three statistics about a file: 1) the number of lines, 2) the number of words, and 3) the number of characters. See the example below.
-
 
 ![head/tail example](/img/headtailwc.png)
 
@@ -369,10 +363,8 @@ The website https://regex101.com/ allows you to test regular expressions to ensu
 
 ![simple pipe example](/img/pipe.png)
 
-
 Truthfully, you would have gotten the same output by entering `sort pe.txt`, without the pipe. 
 If you want to sort a file numerically, use the `-n` option:
-
 
 ![numerical sort example](/img/sort.png)
 
