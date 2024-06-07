@@ -4,7 +4,7 @@ title: Me, my shell, and I
 subtitle: Tips and tricks for working in a UNIX-like environment
 ---
 
-If you have any questions---or discover cool UNIX tricks---please get in touch! You can email me at [amatthews@carnegiescience.edu](mailto:amatthews@carnegiescience.edu) or find me in my office (#132). Mahdi and Peter are available at [mqezlou@carnegiescience.edu](mailto:mqezlou@carnegiescience.edu) and [psenchyna@carnegiescience.edu](mailto:psenchyna@carnegiescience.edu).
+If you have any questions---or discover cool UNIX tricks---please get in touch! You can email Jeff Rich ([jrich@carnegiescience.edu](mailto:jrich@carnegiescience.edu)) or me ([amatthews@carnegiescience.edu](mailto:amatthews@carnegiescience.edu)) or find us in our offices (#130 and #132).
 
 ## UNIX Introduction
 
