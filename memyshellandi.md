@@ -396,5 +396,5 @@ The `-a` option preserves some info on the files like ownership, groups, permiss
 	* Here is an example of what the `cheat` command outputs when you use it. It gives you not only directions for use, but real examples with explanations. **NB:** `tail -f` can be very useful if you're having a program update a file and you want to check on its progress!
 	![cheat example](/img/cheat.png)
 
-* If you need to repeat many commands or sequences of commands, especially complex ones, you might consider writing a shell script, a text file that can do this for you. See e.g. https://www.tutorialspoint.com/unix/shell_scripting.htm
+* If you need to repeat many commands or sequences of commands, especially complex ones, you might consider writing a shell script, a text file that can do this for you. See e.g. [https://www.tutorialspoint.com/unix/shell_scripting.html](https://www.tutorialspoint.com/unix/shell_scripting.html)
 
