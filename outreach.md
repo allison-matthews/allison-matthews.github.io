@@ -6,7 +6,7 @@ subtitle: Sharing science with the community is a passion and a privilege. Below
 
 ## Letters to a Pre-Scientist
 
-I volunteer my time as a pen-pal and serve as a committee member for this wonderful non-profit. Through a pen-pal relationship, students connect with STEM professionals to explore what they do at work, to broaden student ideas of what scientists really look like, and to inspire them to explore their own future in STEM. Read more about it, [here](https://prescientist.org/about-us/)!
+I serve on the Advisory Board as a member of the Development Committee for this wonderful non-profit. With the program, I have been a pen-pal to some amazing students all across the country---from rural Illinois to the heart of Los Angeles. Through a pen-pal relationship, students from low-income communities connect with STEM professionals to explore what they do at work, to broaden student ideas of what scientists really look like, and to inspire them to explore their own future in STEM. Read more about it, [here](https://prescientist.org/about-us/)!
 
 ## Higher Education and Outreach Research
 
