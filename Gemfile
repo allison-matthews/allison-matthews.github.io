@@ -11,6 +11,11 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
-  
+
+# Ruby 3.4+ removed these from the default gems, so they need to be declared explicitly
+gem "bigdecimal"
+gem "logger"
+gem "csv"
+
 gemspec
 
