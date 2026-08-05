@@ -81,13 +81,13 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-page-col: "#FFFFFF"
-text-col: "#404040"
+page-col: "#132404"
+text-col: "#F6F9F0"
 link-col: "#3b6d11"
-hover-col: "#27500a"
-navbar-col: "#282a36"
-navbar-text-col: "#F5F5F5"
-navbar-border-col: "#1a1b23"
+hover-col: "#699935"
+navbar-col: "#1B3607"
+navbar-text-col: "#EAF3DE"
+navbar-border-col: "#EAF3DE"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#3b6d11"

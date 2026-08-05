@@ -8,6 +8,10 @@
   font-display: swap;
 }
 
+.intro-header .page-heading h1 {
+  font-size: 2.1rem;
+}
+
 /* Serif type across headings and nav */
 h1, h2, h3,
 .post-title,
@@ -22,20 +26,44 @@ h1, h2, h3,
 
 /* Monochrome sage links throughout the site */
 a {
-  color: #3b6d11;
+    color: #3b6d11;
+    font-family: inherit;
 }
 
 a:hover {
-  color: #27500a;
+  color: #699935;
 }
 
 /* Intro band: soft sage tint, left-aligned, generous spacing */
 .intro-band {
   background-color: #eaf3de;
-  padding: 32px 28px;
+  padding: 24px 28px;
   border-radius: 8px;
   margin: 2rem 0 2.5rem;
-  max-width: 480px;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.intro-band-text {
+  min-width: 0;
+}
+
+/* Stack image above text on narrow screens */
+@media (max-width: 576px) {
+  .intro-band {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .intro-band h1 {
@@ -72,10 +100,18 @@ a:hover {
   line-height: 1.7;
 }
 
+.post-preview .post-image img {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 0%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 blockquote {
   font-family: Georgia, "Times New Roman", serif;
   border-left: 3px solid #97c459;
   padding-left: 16px;
-  color: #555;
+  color: #F6F9F0;
   margin: 24px 0;
 }

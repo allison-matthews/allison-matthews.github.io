@@ -1,13 +1,17 @@
 ---
 layout: page
 title: Hello!
-subtitle: Astronomer, incoming Assistant Professor at CU Boulder
-show-avatar: false
+subtitle: Astronomer, Incoming Assistant Professor at CU Boulder
+show-avatar: true
+hide-title: true
 ---
 
-<div class="intro-band" markdown="1">
-# Hello, I'm Allison
-Radio astronomer &middot; Incoming Assistant Professor, University of Colorado Boulder
+<div class="intro-band">
+  <img src="{{ '/assets/img/allison_headshot.jpg' | relative_url }}" alt="Allison Matthews" class="intro-avatar" />
+  <div class="intro-band-text" markdown="1">
+# Hello! I'm Allison.
+Radio astronomer &middot; Galaxy evolution researcher &middot; Cosmic ray enthusiast &middot; Maine native
+  </div>
 </div>
 
 > **News:** I will be joining the University of Colorado Boulder as an
@@ -18,19 +22,22 @@ Radio astronomer &middot; Incoming Assistant Professor, University of Colorado B
   <article class="post-preview">
     <h2 class="post-title">About Me</h2>
     <div class="post-entry-container">
-      <div class="post-image">
+<!---
+	<div class="post-image">
         <img src="{{ '/assets/img/allison_headshot.jpg' | relative_url }}" alt="Allison Matthews headshot" />
       </div>
+-->
       <div class="post-entry">
-        I am an astronomer with a background in physics and
-        mathematics. I love to combine physical intuition with
-        mathematical theories to better understand our universe.
-        I am currently a Carnegie Fellow at the Carnegie
-        Observatories in Pasadena, CA, and starting in January 2027,
-        I will join the Astrophysical and Planetary Sciences
-        Department at the University of Colorado Boulder as an
-        Assistant Professor. I grew up along the beautiful coast of
-        Maine and love to spend my free time outdoors.
+        I am currently a Carnegie/Vera Rubin Fellow at the 
+		<a href="https://carnegiescience.edu/obs" target="_blank" rel="noopener">
+		Carnegie Observatories</a> in Pasadena, CA. 
+		I got my PhD from the <a href="https://astronomy.as.virginia.edu" target="_blank" rel="noopener">
+		University of Virginia</a>, where I was an 
+		NSF Graduate Research Fellow and NRAO Grote 
+		Reber Fellow. I studied mathematics and physics in undergrad at 
+		Lafayette College, where I was introduced to astronomy through the 
+		study of pulsars. I grew up along the beautiful coast of Maine and 
+		love to spend my free time outdoors. 
       </div>
     </div>
   </article>
@@ -44,7 +51,8 @@ Radio astronomer &middot; Incoming Assistant Professor, University of Colorado B
         <img src="{{ '/assets/img/MeerKATDeep2_compositeV6-300px.jpg' | relative_url }}" alt="MeerKAT composite image" />
       </div>
       <div class="post-entry">
-        Very broadly, my roots are in radio astronomy. I have
+        Very broadly, I like combining radio observations with
+		other wavelengths to learn about our universe. I have
         been especially interested in using radio emission as a
         dust-unbiased tracer of star formation---both locally and
         across cosmic time. Locally, I use radio emission to constrain
@@ -64,13 +72,16 @@ Radio astronomer &middot; Incoming Assistant Professor, University of Colorado B
 
 <div class="posts-list">
   <article class="post-preview">
-    <h2 class="post-title">Join the Group</h2>
+    <h2 class="post-title">Contact Me</h2>
     <div class="post-entry-container">
       <div class="post-entry">
-        I will be starting my group at the University of Colorado
-        Boulder in January 2027 and am excited to work with future
-        students and postdocs. More information on openings and how
-        to apply will be posted here soon &mdash; check back for updates!
+	  Allison Matthews<br>
+	  Carnegie Observatories<br>
+	  813 Santa Barbara St<br>
+	  Pasadena, CA 91101<br>
+	  <br>
+        <a href="mailto:amatthews@carnegiescience.edu">
+		amatthews@carnegiescience.edu</a> 
       </div>
     </div>
   </article>
