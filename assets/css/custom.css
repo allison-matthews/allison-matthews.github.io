@@ -1,0 +1,117 @@
+/* Custom styles for Allison Matthews site -- sage / serif / spacious theme */
+
+@font-face {
+  font-family: "AllisonHand";
+  src: url("/assets/fonts/allison-handwriting.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.intro-header .page-heading h1 {
+  font-size: 2.1rem;
+}
+
+/* Serif type across headings and nav */
+h1, h2, h3,
+.post-title,
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.navbar-brand {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+/* Monochrome sage links throughout the site */
+a {
+    color: #3b6d11;
+    font-family: inherit;
+}
+
+a:hover {
+  color: #699935;
+}
+
+/* Intro band: soft sage tint, left-aligned, generous spacing */
+.intro-band {
+  background-color: #eaf3de;
+  padding: 24px 28px;
+  border-radius: 8px;
+  margin: 2rem 0 2.5rem;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.intro-band-text {
+  min-width: 0;
+}
+
+/* Stack image above text on narrow screens */
+@media (max-width: 576px) {
+  .intro-band {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.intro-band h1 {
+  font-family: "AllisonHand", cursive;
+  color: #27500a;
+  margin: 0 0 6px;
+  font-size: 2.1rem;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  min-height: 1.2em;
+}
+
+.intro-band p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  color: #3b6d11;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Give sections more breathing room */
+.posts-list {
+  margin-bottom: 2.5rem;
+}
+
+.post-title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.post-entry {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.7;
+}
+
+.post-preview .post-image img {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 0%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+blockquote {
+  font-family: Georgia, "Times New Roman", serif;
+  border-left: 3px solid #97c459;
+  padding-left: 16px;
+  color: #F6F9F0;
+  margin: 24px 0;
+}

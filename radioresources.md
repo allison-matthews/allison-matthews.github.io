@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Radio Astronomy Resources
-image: /img/springbok.jpg
+image: /assets/img/springbok.jpg
 ---
 *Explore the fascinating history and science of radio astronomy through the links below!*
 

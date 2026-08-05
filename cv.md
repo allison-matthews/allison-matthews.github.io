@@ -1,1 +1,7 @@
+---
+layout: page
+title: CV
+subtitle: My curriculum vitae
+---
+
 <iframe src="https://docs.google.com/gview?url=https://github.com/allison-matthews/allison-matthews.github.io/raw/master/pdfs/CV_2March26.pdf&embedded=true" style="width:100%;height:800px" frameborder="0"></iframe>

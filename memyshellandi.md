@@ -84,7 +84,7 @@ The **ZIP** format supports lossless file compression, and files with the extens
 ### Exploring detailed information of files/directories
 
 If you type `ls` into the command line now, you should see a list of files and subdirectories. In order to list more information on the contents, enter `ls -l`. You should see something similar to the image below.
-![ls -l example](/img/llexample.png)
+![ls -l example](/assets/img/llexample.png)
 Lines that begin with **d** indicate directories. The first column lists the file/directory permissions: **r**: read permission, **w**: write permission, **x**: execute permission. 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.1.0/mermaid.min.js">
@@ -117,7 +117,7 @@ Sometimes you may want to change the permission of a file or directory. In order
 ``` bash
 $ chmod go+w README.md
 ```
-![changed permissions](/img/llchmod.png)
+![changed permissions](/assets/img/llchmod.png)
 Now the **u**ser, the **g**roup, and all **o**thers can write to the file `README.md`. To remove permissions, use `-` in the place of `+`. As shown above, **g** and **o** correspond to _group_ and _others_ permissions, and it follows that **u** is used when changing _user_ permissions. Without specifying **u**, **g**, or **o**, the default is to change only the user (**u**) permissions.
 
 You may have noticed that my sample directory is named `unixpizza` instead of ``unixtutorial-main``. The `mv` (move) command changes a file's complete path, so we can use the command to simply change a file or directory name. For example, while in the `cassi` directory, you can input the following the change the directory name of `unixtutorial-main` to something easier to type.
@@ -219,7 +219,7 @@ Jupyter notebooks are useful for some things, but you often want to create and r
 ```bash
 nano my_new_file.txt
 ```
-![nano text editor](/img/newfile.png)
+![nano text editor](/assets/img/newfile.png)
 
 > ### Practice:
 > Work with your neighbor to create a python program that prints "Hello Carnegie!" using nano. To run your python program, type: `python program.py` on the command line.
@@ -229,16 +229,16 @@ A note before going through individual commands: if you ever need more informati
 ```bash
 $ man cat
 ```
-![man cat example](/img/mancat.png)
+![man cat example](/assets/img/mancat.png)
 ```bash
 $ cat --help
 ```
-![cat --help example](/img/cathelp.png)
+![cat --help example](/assets/img/cathelp.png)
 **NB:** There is a package called `cheat` which you can download that gives much more readable information and examples. See the "Resources" section for details on installing and using it.
 ## `top and ps`
 There may come a time when you need to kill a program and `cntrl-c` is not doing the trick. Entering the `top` command in your terminal will list all processes on your computer with their Program ID's (PIDs). 
 
-![top example](/img/top.png)
+![top example](/assets/img/top.png)
 
 If you need to force kill a program, find the associated PID (3130 for example) and type 
 ```bash
@@ -252,15 +252,15 @@ This is likely many hundreds of processes, so you can either use this command in
 
 ## `cat`
 The `cat` command (short for con**cat**enate) outputs the contents of a file to the command line. 
-![cat example](/img/catEx.png)
+![cat example](/assets/img/catEx.png)
 It works on multiple files.
-![cat on multiple files](/img/catMultiple.png)
+![cat on multiple files](/assets/img/catMultiple.png)
 [Here](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/?ref=lbp) is a good resource for more information and examples on how you can use `cat`, including printing the output of file with line numbers, creating files, copying the contents of a file to another. My favorite: to display the lines of a file in reverse order use `tac` instead of `cat` (clever).
-![tac example](/img/tac.png)
+![tac example](/assets/img/tac.png)
 
 ## `head`, `tail`, `wc`
 The commands `head` and `tail` enable you to view the first (`head`) or last (`tail`) lines of a file without having to open it. By default, these commands will show the first/last 10 lines. If you want to only see the first/last 3 lines, you can use the `-n` option followed by the number of lines you wish to see. There is also a command called `wc` (**w**ord **c**ount) which tells you three statistics about a file: 1) the number of lines, 2) the number of words, and 3) the number of characters. See the example below.
-![head/tail example](/img/headtailwc.png)
+![head/tail example](/assets/img/headtailwc.png)
 
 ## `grep`, `sed` 
 **Regular Expressions** are used for textual pattern matching and is almost a computer language onto itself. It is built into most modern programming languages (the python package is called `re`) and text editors. On the command line, you can use regular expressions through the `grep` command (**g**et **r**egular **e**x**p**ression). To use `grep`:
@@ -298,10 +298,10 @@ The website https://regex101.com/ allows you to test regular expressions to ensu
 
 ## `pipe`, `sort`
 `pipe` allows you to input the output of one command directly into another. Suppose you want to output the _sorted_ contents of a file to the terminal. You can do this by 'piping' the output of `cat` to the command `sort`:
-![simple pipe example](/img/pipe.png)
+![simple pipe example](/assets/img/pipe.png)
 Truthfully, you would have gotten the same output by entering `sort pe.txt`, without the pipe. 
 If you want to sort a file numerically, use the `-n` option:
-![numerical sort example](/img/sort.png)
+![numerical sort example](/assets/img/sort.png)
 > ### Practice:
 > **Without** opening any files:
 > 1. Combine `wc` with `sort` to list the files from those with the fewest lines to the most lines. 
@@ -394,7 +394,7 @@ The `-a` option preserves some info on the files like ownership, groups, permiss
 	```
 	* Or you can look at additional ways to install it [here](https://formulae.brew.sh/formula/cheat#default).
 	* Here is an example of what the `cheat` command outputs when you use it. It gives you not only directions for use, but real examples with explanations. **NB:** `tail -f` can be very useful if you're having a program update a file and you want to check on its progress!
-	![cheat example](/img/cheat.png)
+	![cheat example](/assets/img/cheat.png)
 
 * If you need to repeat many commands or sequences of commands, especially complex ones, you might consider writing a shell script, a text file that can do this for you. See e.g. [https://www.tutorialspoint.com/unix/shell_scripting.htm](https://www.tutorialspoint.com/unix/shell_scripting.htm)
 
