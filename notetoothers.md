@@ -4,11 +4,11 @@ title: A note to students and young scientists
 image: 
 ---
 
-This website shows only a small part of my journey, namely the successful parts. 
+This website shows only a small portion of my journey, namely the successful parts. 
 
 It does not show every graduate school, postdoc, and permanent position I applied to and was rejected by.
 
-It does not show the mental up's and down's that accompany trying something new, thinking outside the box, finding myself at a dead end, and starting over again.
+It does not show the mental ups and downs that accompany trying something new, thinking outside the box, finding myself at a dead end, and starting over again.
 
 It does not show the personal struggles and trauma I've faced and continue to cope with.
 
