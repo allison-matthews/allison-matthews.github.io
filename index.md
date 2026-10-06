@@ -14,7 +14,7 @@ Radio astronomer &middot; Galaxy evolution researcher &middot; Cosmic ray enthus
   </div>
 </div>
 
-> A <a href="notetoothers.md" target="_blank" rel="noopener">note</a> to students.
+> A <a href='notetoothers' target="_blank" rel="noopener">note</a> to students.
 
 > **News:** I will be joining the University of Colorado Boulder as an
 > Assistant Professor in the Astrophysical and Planetary Sciences
